@@ -24,6 +24,11 @@ body {
     .sub-heading color {
         color: var(--highlight-color);
     }
+
+    /* Navbar styles */
+    #navbar {
+        background-color: var(--primary-color);
+    }
     /* grid visualisation css for testing */
     /* .container,
     row {
