@@ -82,7 +82,7 @@ h2 {
 }
 
 #contact .sub-heading-color {
-    color:var(--highlight-color-light)
+    color: var(--highlight-color-light);
 }
 
 #contact i {
@@ -98,10 +98,13 @@ h2 {
 }
 #contact .social-links i:hover {
     color: var(--secondary-color);
-
+}
+#contact .table-dark * {
+    background-color: transparent;
+}
 /* grid visualisation css for testing */
 /* .container,
-    .row {
+    .row { 
         border: 2px solid black;
     }
     .col-12 {
